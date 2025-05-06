@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustang Fastback - Legendary Performance</title>
+    <meta name="description" content="Experience the thrill of the iconic Ford Mustang - American muscle with unparalleled performance.">
+    <link rel="icon" href="assets/img/mustang-logo.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loading-animation">
+        <div class="loading-logo">
+            <img src="assets/img/mustang-logo.png" alt="Mustang Logo" class="loading-icon">
+            <div class="loading-bar"></div>
+        </div>
+    </div>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    
+    <div class="page-transition"></div>
+
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
+    
+    <div class="hero-background">
+        <div class="parallax-layer layer-1" data-speed="0.1"></div>
+        <div class="parallax-layer layer-2" data-speed="0.2"></div>
+        <div class="parallax-layer layer-3" data-speed="0.3"></div>
+        <div class="overlay"></div>
+    </div>
+
+    <div class="particles-container"></div>
+
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="logo-text">MUSTANG</span>
+                <div class="logo-icon"><i class="fas fa-horse"></i></div>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#models" class="nav-link"><span>Models</span></a></li>
+                    <li><a href="#features" class="nav-link"><span>Features</span></a></li>
+                    <li><a href="#specs" class="nav-link"><span>Specs</span></a></li>
+                    <li><a href="#gallery" class="nav-link"><span>Gallery</span></a></li>
+                    <li><a href="#configure" class="nav-link"><span>Configure</span></a></li>
+                    <li><a href="#contact" class="nav-link"><span>Contact</span></a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="sound-toggle">
+                    <i class="fas fa-volume-mute"></i>
+                </button>
+                <a href="#configure" class="btn btn-sm">Configure</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content parallax" data-speed="0.2">
+                    <h1 class="animate__animated animate__fadeInUp">MUSTANG FASTBACK</h1>
+                    <h2 class="animate__animated animate__fadeInUp animate__delay-1s">LEGENDARY PERFORMANCE</h2>
+                    <p class="animate__animated animate__fadeInUp animate__delay-2s">Experience the thrill of the road with iconic American muscle.</p>
+                    <div class="hero-buttons animate__animated animate__fadeInUp animate__delay-3s">
+                        <a href="#models" class="btn btn-primary">Explore Models</a>
+                        <a href="#contact" class="btn btn-secondary">Book Test Drive</a>
+                        <a href="#video" class="btn btn-outline">Watch Video</a>
+                    </div>
+                    <div class="hero-stats animate__animated animate__fadeIn animate__delay-4s">
+                        <div class="stat">
+                            <span class="stat-value">460</span>
+                            <span class="stat-label">HP</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat">
+                            <span class="stat-value">4.2</span>
+                            <span class="stat-label">0-60 MPH</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat">
+                            <span class="stat-value">155</span>
+                            <span class="stat-label">MPH TOP SPEED</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator animate__animated animate__fadeIn animate__delay-5s">
+                <span>Scroll Down</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="hero-badge">
+                <img src="assets/img/mustang-logo.png" alt="Mustang Logo" width="120">
+            </div>
+        </section>
+
+        <section id="models" class="models">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>CHOOSE YOUR MUSTANG</h2>
+                    <p>Each model brings its own unique combination of power and style.</p>
+                </div>
+                
+                <div class="swiper model-swiper" data-aos="fade-up" data-aos-delay="200">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="model-card">
+                                <div class="model-image">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://cdn.pixabay.com/photo/2016/11/18/12/53/automobile-1834278_1280.jpg" alt="Mustang GT" class="lazy-load">
+                                </div>
+                                <div class="model-info">
+                                    <h3>MUSTANG GT</h3>
+                                    <p>The heart and soul of Mustang performance.</p>
+                                    <div class="model-specs">
+                                        <div class="model-spec">
+                                            <span class="spec-value">460</span>
+                                            <span class="spec-label">HORSEPOWER</span>
+                                        </div>
+                                        <div class="model-spec">
+                                            <span class="spec-value">4.2</span>
+                                            <span class="spec-label">0-60 MPH</span>
+                                        </div>
+                                    </div>
+                                    <a href="#gt-details" class="learn-more">Explore <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="model-card">
+                                <div class="model-image">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://cdn.pixabay.com/photo/2015/09/16/10/47/ford-942605_1280.jpg" alt="Mustang Mach 1" class="lazy-load">
+                                </div>
+                                <div class="model-info">
+                                    <h3>MACH 1</h3>
+                                    <p>The track-ready, limited-edition legend returns.</p>
+                                    <div class="model-specs">
+                                        <div class="model-spec">
+                                            <span class="spec-value">480</span>
+                                            <span class="spec-label">HORSEPOWER</span>
+                                        </div>
+                                        <div class="model-spec">
+                                            <span class="spec-value">3.9</span>
+                                            <span class="spec-label">0-60 MPH</span>
+                                        </div>
+                                    </div>
+                                    <a href="#mach1-details" class="learn-more">Explore <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="model-card">
+                                <div class="model-image">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://cdn.pixabay.com/photo/2016/05/31/10/52/car-1426697_1280.jpg" alt="Mustang Shelby GT500" class="lazy-load">
+                                </div>
+                                <div class="model-info">
+                                    <h3>SHELBY GT500</h3>
+                                    <p>The most powerful street-legal Ford ever.</p>
+                                    <div class="model-specs">
+                                        <div class="model-spec">
+                                            <span class="spec-value">760</span>
+                                            <span class="spec-label">HORSEPOWER</span>
+                                        </div>
+                                        <div class="model-spec">
+                                            <span class="spec-value">3.3</span>
+                                            <span class="spec-label">0-60 MPH</span>
+                                        </div>
+                                    </div>
+                                    <a href="#shelby-details" class="learn-more">Explore <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="model-card">
+                                <div class="model-image">
+                                    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://cdn.pixabay.com/photo/2016/05/24/15/17/muscle-car-1412653_1280.jpg" alt="Mustang EcoBoost" class="lazy-load">
+                                </div>
+                                <div class="model-info">
+                                    <h3>ECOBOOST</h3>
+                                    <p>Advanced technology meets Mustang performance.</p>
+                                    <div class="model-specs">
+                                        <div class="model-spec">
+                                            <span class="spec-value">310</span>
+                                            <span class="spec-label">HORSEPOWER</span>
+                                        </div>
+                                        <div class="model-spec">
+                                            <span class="spec-value">4.9</span>
+                                            <span class="spec-label">0-60 MPH</span>
+                                        </div>
+                                    </div>
+                                    <a href="#ecoboost-details" class="learn-more">Explore <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                
+                <div class="text-center" data-aos="fade-up" data-aos-delay="400">
+                    <a href="#" class="btn btn-primary mt-5">Compare All Models</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Performance Counter Section -->
+        <section class="performance-counter">
+            <div class="container">
+                <div class="counter-grid">
+                    <div class="counter-item" data-aos="fade-up">
+                        <span class="counter-value" data-count="460">0</span>
+                        <span class="counter-label">HORSEPOWER</span>
+                    </div>
+                    <div class="counter-item" data-aos="fade-up" data-aos-delay="100">
+                        <span class="counter-value" data-count="420">0</span>
+                        <span class="counter-label">TORQUE (LB-FT)</span>
+                    </div>
+                    <div class="counter-item" data-aos="fade-up" data-aos-delay="200">
+                        <span class="counter-value" data-count="168">0</span>
+                        <span class="counter-label">TOP SPEED (MPH)</span>
+                    </div>
+                    <div class="counter-item" data-aos="fade-up" data-aos-delay="300">
+                        <span class="counter-value" data-count="60">0</span>
+                        <span class="counter-label">YEARS OF LEGACY</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Background Section -->
+        <section id="video" class="video-background">
+            <video autoplay muted loop>
+                <source src="https://assets.codepen.io/3364143/mustang-driving.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay"></div>
+            <div class="video-content">
+                <h2 data-aos="fade-up">EXPERIENCE THE THRILL</h2>
+                <p data-aos="fade-up" data-aos-delay="100">Unleash the power of raw American performance. Feel the road beneath you as you command the legendary Mustang.</p>
+                <a href="#contact" class="btn btn-primary" data-aos="fade-up" data-aos-delay="200">Book a Test Drive</a>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>ENGINEERED FOR GREATNESS</h2>
+                    <p>Every detail of the Mustang is designed to enhance performance and driver experience.</p>
+                </div>
+                
+                <div class="features-showcase" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-image motion-parallax">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://cdn.pixabay.com/photo/2015/05/28/23/12/auto-788747_1280.jpg" alt="Mustang Features" class="lazy-load">
+                        <div class="feature-hotspot" style="top: 35%; left: 65%;" data-feature="engine">
+                            <div class="hotspot-dot"></div>
+                            <div class="hotspot-ring"></div>
+                        </div>
+                        <div class="feature-hotspot" style="top: 55%; left: 30%;" data-feature="suspension">
+                            <div class="hotspot-dot"></div>
+                            <div class="hotspot-ring"></div>
+                        </div>
+                        <div class="feature-hotspot" style="top: 65%; left: 75%;" data-feature="exhaust">
+                            <div class="hotspot-dot"></div>
+                            <div class="hotspot-ring"></div>
+                        </div>
+                        <div class="feature-hotspot" style="top: 25%; left: 20%;" data-feature="design">
+                            <div class="hotspot-dot"></div>
+                            <div class="hotspot-ring"></div>
+                        </div>
+                        
+                        <!-- Parallax elements -->
+                        <div class="parallax-element" data-speed="0.05" style="top: 20%; left: 80%; width: 150px; height: 150px; opacity: 0.1;">
+                            <img src="assets/img/mustang-logo.png" alt="Logo Element">
+                        </div>
+                        <div class="parallax-element" data-speed="0.08" style="bottom: 30%; right: 10%; width: 100px; height: 100px; opacity: 0.1;">
+                            <img src="assets/img/mustang-logo.png" alt="Logo Element">
+                        </div>
+                    </div>
+                    
+                    <div class="feature-details">
+                        <div class="feature-detail" data-feature="engine" data-aos="fade-left">
+                            <div class="feature-icon">
+                                <i class="fas fa-tachometer-alt"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>5.0L V8 ENGINE</h3>
+                                <p>460 horsepower and 420 lb.-ft. of torque with port fuel direct injection and high-flow cylinder heads.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-detail" data-feature="suspension" data-aos="fade-left" data-aos-delay="100">
+                            <div class="feature-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>ADVANCED SUSPENSION</h3>
+                                <p>Fully independent rear suspension with optional MagneRide™ Damping System for precise handling.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-detail" data-feature="exhaust" data-aos="fade-left" data-aos-delay="200">
+                            <div class="feature-icon">
+                                <i class="fas fa-volume-up"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>ACTIVE VALVE EXHAUST</h3>
+                                <p>Customizable exhaust note with four selectable modes from quiet to track-ready roar.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-detail" data-feature="design" data-aos="fade-left" data-aos-delay="300">
+                            <div class="feature-icon">
+                                <i class="fas fa-car"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h3>ICONIC DESIGN</h3>
+                                <p>Aggressive styling with modern aerodynamics that pays homage to the classic Mustang heritage.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="performance-metrics" data-aos="fade-up">
+                <div class="container">
+                    <div class="metrics-grid">
+                        <div class="metric-item" data-aos="zoom-in" data-aos-delay="100">
+                            <svg class="circular-chart">
+                                <circle class="circular-bg" cx="60" cy="60" r="54"/>
+                                <circle class="circular-progress" cx="60" cy="60" r="54" data-percentage="92"/>
+                            </svg>
+                            <div class="metric-content">
+                                <span class="metric-value">92<span class="metric-unit">%</span></span>
+                                <span class="metric-label">PERFORMANCE RATING</span>
+                            </div>
+                        </div>
+                        <div class="metric-item" data-aos="zoom-in" data-aos-delay="200">
+                            <svg class="circular-chart">
+                                <circle class="circular-bg" cx="60" cy="60" r="54"/>
+                                <circle class="circular-progress" cx="60" cy="60" r="54" data-percentage="88"/>
+                            </svg>
+                            <div class="metric-content">
+                                <span class="metric-value">88<span class="metric-unit">%</span></span>
+                                <span class="metric-label">HANDLING SCORE</span>
+                            </div>
+                        </div>
+                        <div class="metric-item" data-aos="zoom-in" data-aos-delay="300">
+                            <svg class="circular-chart">
+                                <circle class="circular-bg" cx="60" cy="60" r="54"/>
+                                <circle class="circular-progress" cx="60" cy="60" r="54" data-percentage="95"/>
+                            </svg>
+                            <div class="metric-content">
+                                <span class="metric-value">95<span class="metric-unit">%</span></span>
+                                <span class="metric-label">DRIVER SATISFACTION</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="specs" class="specs">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>PERFORMANCE SPECS</h2>
+                    <p>Designed to deliver thrilling performance on every drive.</p>
+                </div>
+                
+                <div class="specs-tabs" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tabs-nav">
+                        <button class="tab-btn active" data-tab="engine">Engine</button>
+                        <button class="tab-btn" data-tab="performance">Performance</button>
+                        <button class="tab-btn" data-tab="dimensions">Dimensions</button>
+                        <button class="tab-btn" data-tab="technology">Technology</button>
+                    </div>
+                    
+                    <div class="tabs-content">
+                        <div class="tab-panel active" data-tab="engine">
+                            <div class="tab-grid">
+                                <div class="spec-item" data-aos="fade-up">
+                                    <span class="spec-value">5.0L</span>
+                                    <span class="spec-label">V8 ENGINE</span>
+                                </div>
+                                <div class="spec-item" data-aos="fade-up" data-aos-delay="100">
+                                    <span class="spec-value">460</span>
+                                    <span class="spec-label">HORSEPOWER</span>
+                                </div>
+                                <div class="spec-item" data-aos="fade-up" data-aos-delay="200">
+                                    <span class="spec-value">420</span>
+                                    <span class="spec-label">LB-FT TORQUE</span>
+                                </div>
+                                <div class="spec-item" data-aos="fade-up" data-aos-delay="300">
+                                    <span class="spec-value">7500</span>
+                                    <span class="spec-label">MAX RPM</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-panel" data-tab="performance">
+                            <div class="tab-grid">
+                                <div class="spec-item">
+                                    <span class="spec-value">4.2</span>
+                                    <span class="spec-label">0-60 MPH (SEC)</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-value">12.1</span>
+                                    <span class="spec-label">QUARTER MILE (SEC)</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-value">155</span>
+                                    <span class="spec-label">TOP SPEED (MPH)</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-value">0.97</span>
+                                    <span class="spec-label">LATERAL G-FORCE</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-panel" data-tab="dimensions">
+                            <div class="tab-grid">
+                                <div class="spec-item">
+                                    <span class="spec-value">188.5</span>
+                                    <span class="spec-label">LENGTH (IN)</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-value">54.3</span>
+                                    <span class="spec-label">HEIGHT (IN)</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-value">3,825</span>
+                                    <span class="spec-label">WEIGHT (LBS)</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-value">13.5</span>
+                                    <span class="spec-label">CARGO (CU FT)</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-panel" data-tab="technology">
+                            <div class="tab-grid">
+                                <div class="spec-item">
+                                    <span class="spec-value">12"</span>
+                                    <span class="spec-label">DIGITAL DISPLAY</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-value">B&O</span>
+                                    <span class="spec-label">PREMIUM AUDIO</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-value">4</span>
+                                    <span class="spec-label">DRIVE MODES</span>
+                                </div>
+                                <div class="spec-item">
+                                    <span class="spec-value">SYNC 3</span>
+                                    <span class="spec-label">INFOTAINMENT</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>WHAT DRIVERS SAY</h2>
+                    <p>Hear from those who've experienced the thrill of the Mustang firsthand.</p>
+                </div>
+                
+                <div class="testimonial-carousel" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-item">
+                        <p class="testimonial-quote">I've owned many cars in my life, but nothing compares to the raw power and pure driving joy of my Mustang GT. It's more than a car, it's a lifestyle.</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-author-img">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Davis" class="lazy-load">
+                            </div>
+                            <div class="testimonial-author-info">
+                                <h4>John Davis</h4>
+                                <p>Mustang GT Owner (3 years)</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-item">
+                        <p class="testimonial-quote">The combination of classic muscle car vibes with modern technology makes the Mustang unbeatable. The growl of the engine still gives me goosebumps every morning.</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-author-img">
+                                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson" class="lazy-load">
+                            </div>
+                            <div class="testimonial-author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Mach 1 Owner (1 year)</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-item">
+                        <p class="testimonial-quote">From the moment I test drove the Shelby GT500, I knew I had to have it. The power is intoxicating, and the handling is surprisingly nimble for such a powerful car.</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-author-img">
+                                <img src="https://randomuser.me/api/portraits/men/66.jpg" alt="Michael Chen" class="lazy-load">
+                            </div>
+                            <div class="testimonial-author-info">
+                                <h4>Michael Chen</h4>
+                                <p>Shelby GT500 Owner (2 years)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-nav testimonial-prev"><i class="fas fa-chevron-left"></i></div>
+                <div class="testimonial-nav testimonial-next"><i class="fas fa-chevron-right"></i></div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>GALLERY</h2>
+                    <p>Experience the beauty and power of the Mustang through our gallery.</p>
+                </div>
+                
+                <div class="gallery-filters" data-aos="fade-up" data-aos-delay="100">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="exterior">Exterior</button>
+                    <button class="filter-btn" data-filter="interior">Interior</button>
+                    <button class="filter-btn" data-filter="details">Details</button>
+                </div>
+                
+                <div class="gallery-grid" data-aos="fade-up" data-aos-delay="200">
+                    <!-- Gallery items will be dynamically added via JavaScript -->
+                </div>
+                
+                <div class="gallery-lightbox">
+                    <div class="lightbox-content">
+                        <img src="" alt="Gallery Image">
+                        <button class="lightbox-close"><i class="fas fa-times"></i></button>
+                        <button class="lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="lightbox-next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="view-360">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>360° EXPERIENCE</h2>
+                    <p>Explore every angle of the Mustang GT.</p>
+                </div>
+                
+                <div class="view-360-container" data-aos="fade-up" data-aos-delay="200">
+                    <div class="view-360-image">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://cdn.pixabay.com/photo/2016/11/18/12/53/automobile-1834278_1280.jpg" alt="Mustang 360 View" id="view-360-img" class="lazy-load">
+                    </div>
+                    <div class="view-360-controls">
+                        <div class="drag-instruction">
+                            <i class="fas fa-arrows-alt-h"></i>
+                            <span>Drag to rotate</span>
+                        </div>
+                        <input type="range" min="1" max="36" value="1" class="view-360-slider" id="view-360-slider">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Configure Your Mustang Section -->
+        <section id="configure" class="configurator">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>CONFIGURE YOUR MUSTANG</h2>
+                    <p>Customize your dream Mustang with our interactive configurator.</p>
+                </div>
+                
+                <div class="configurator-content" data-aos="fade-up" data-aos-delay="200">
+                    <div class="configurator-preview">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://cdn.pixabay.com/photo/2016/11/18/12/53/automobile-1834278_1280.jpg" alt="Mustang Configuration" id="config-preview-img" class="lazy-load">
+                    </div>
+                    
+                    <div class="configurator-options">
+                        <div class="config-option">
+                            <h3>Model</h3>
+                            <div class="config-choices">
+                                <div class="config-choice active" data-model="gt" data-price="37000">GT</div>
+                                <div class="config-choice" data-model="mach1" data-price="52000">Mach 1</div>
+                                <div class="config-choice" data-model="shelby" data-price="72000">Shelby GT500</div>
+                                <div class="config-choice" data-model="ecoboost" data-price="27000">EcoBoost</div>
+                            </div>
+                        </div>
+                        
+                        <div class="config-option">
+                            <h3>Exterior Color</h3>
+                            <div class="config-choices">
+                                <div class="config-choice active" data-color="red" style="background-color: #d92929;"></div>
+                                <div class="config-choice" data-color="blue" style="background-color: #0c4da2;"></div>
+                                <div class="config-choice" data-color="black" style="background-color: #111111;"></div>
+                                <div class="config-choice" data-color="silver" style="background-color: #cccccc;"></div>
+                                <div class="config-choice" data-color="orange" style="background-color: #ff6a00;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="config-option">
+                            <h3>Wheels</h3>
+                            <div class="config-choices">
+                                <div class="config-choice active" data-wheels="standard" data-price="0">18" Standard</div>
+                                <div class="config-choice" data-wheels="premium" data-price="1200">19" Premium</div>
+                                <div class="config-choice" data-wheels="forged" data-price="2500">20" Forged</div>
+                            </div>
+                        </div>
+                        
+                        <div class="config-option">
+                            <h3>Performance Package</h3>
+                            <div class="config-choices">
+                                <div class="config-choice active" data-package="none" data-price="0">None</div>
+                                <div class="config-choice" data-package="level1" data-price="4995">Level 1</div>
+                                <div class="config-choice" data-package="level2" data-price="6500">Level 2</div>
+                            </div>
+                        </div>
+                        
+                        <div class="config-price">
+                            <h3>Your Configuration</h3>
+                            <div class="price">$<span id="config-price">37,000</span></div>
+                            <p class="price-note">*Price excludes destination & delivery fees</p>
+                        </div>
+                        
+                        <div class="config-actions">
+                            <a href="#" class="btn btn-primary">Save Configuration</a>
+                            <a href="#contact" class="btn btn-secondary">Request Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>GET IN TOUCH</h2>
+                    <p>Contact us to schedule a test drive or learn more about the Mustang lineup.</p>
+                </div>
+                
+                <div class="contact-container" data-aos="fade-up" data-aos-delay="200">
+                    <div class="contact-form">
+                        <form id="test-drive-form">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="model">Preferred Model</label>
+                                <select id="model" name="model">
+                                    <option value="gt">Mustang GT</option>
+                                    <option value="mach1">Mach 1</option>
+                                    <option value="shelby">Shelby GT500</option>
+                                    <option value="ecoboost">EcoBoost</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="4"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Request Test Drive</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Visit Our Showroom</h3>
+                            <p>123 Performance Drive<br>Detroit, MI 48201</p>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-phone-alt"></i>
+                            <h3>Call Us</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email Us</h3>
+                            <p>info@mustangdemo.com</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">MUSTANG</div>
+                    <p>Experience the thrill of American performance with the legendary Ford Mustang.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Home</a></li>
+                        <li><a href="#models"><i class="fas fa-angle-right"></i> Models</a></li>
+                        <li><a href="#features"><i class="fas fa-angle-right"></i> Features</a></li>
+                        <li><a href="#specs"><i class="fas fa-angle-right"></i> Specs</a></li>
+                        <li><a href="#gallery"><i class="fas fa-angle-right"></i> Gallery</a></li>
+                        <li><a href="#contact"><i class="fas fa-angle-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-file-pdf"></i> Brochure</a></li>
+                        <li><a href="#configure"><i class="fas fa-sliders-h"></i> Build & Price</a></li>
+                        <li><a href="#"><i class="fas fa-credit-card"></i> Financing</a></li>
+                        <li><a href="#"><i class="fas fa-tools"></i> Maintenance</a></li>
+                        <li><a href="#"><i class="fas fa-shield-alt"></i> Warranty</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for the latest Mustang news and updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email Address" class="newsletter-input">
+                        <button type="submit" class="newsletter-btn"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mustang. All Rights Reserved. This is a demo website.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="floating-actions">
+        <button class="floating-action chat-btn" id="chat-button">
+            <i class="fas fa-comment"></i>
+        </button>
+        <button class="floating-action" id="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+    
+    <div class="chat-bubble" id="chat-bubble">
+        <button class="chat-bubble-close" id="chat-close"><i class="fas fa-times"></i></button>
+        <p>Hi there! Interested in the Mustang? Have any questions? We're here to help!</p>
+    </div>
+
+    <!-- Audio elements for sound effects -->
+    <audio id="hover-sound" src="https://assets.codepen.io/217233/whoosh.mp3" preload="auto"></audio>
+    <audio id="click-sound" src="https://assets.codepen.io/217233/click.mp3" preload="auto"></audio>
+    <audio id="engine-sound" src="https://assets.codepen.io/217233/engine-rev.mp3" preload="auto"></audio>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
